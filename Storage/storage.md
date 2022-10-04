@@ -251,9 +251,7 @@ use SSL/TLS (https) to access to S3 endpoint
   - progress is check pointed into DynamoDB (need IAM access)
     
     ![Storage%20f7b4b0af2082438fb7c5e00d31963324/Untitled%208png](file://C:\Users\ashehzad\Downloads\Export-a7e63886-1d87-415f-8af2-c1b3f94e5803\Storage%20f7b4b0af2082438fb7c5e00d31963324\Untitled%208.png)
-    
-    ![Storage%20f7b4b0af2082438fb7c5e00d31963324/Untitled%209png](file://C:\Users\ashehzad\Downloads\Export-a7e63886-1d87-415f-8af2-c1b3f94e5803\Storage%20f7b4b0af2082438fb7c5e00d31963324\Untitled%209.png)
-    
+
 
 ### Exceptions
 
