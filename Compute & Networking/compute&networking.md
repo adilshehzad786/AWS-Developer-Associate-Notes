@@ -96,10 +96,11 @@ Security Groups act as a stateful firewall for your Ec2 instances. When you defi
 - outbound traffic is allowed by default
 - can allow inbound traffic from:
   - anywhere
+
   - IP
   - other security groups
+![Untitled](https://user-images.githubusercontent.com/53600644/193905378-b644924e-5eee-44de-9c17-386f0686d599.png)
 
-![Compute%20and%20Networking%204689778871da4b9081450963809f1a28/Untitledpng](file://C:\Users\ashehzad\Downloads\Export-6e54e554-61aa-40b5-a77f-e7326cc0d411\Compute%20and%20Networking%204689778871da4b9081450963809f1a28\Untitled.png)
 
 ## SSH troubleshooting
 
@@ -107,7 +108,8 @@ Security Groups act as a stateful firewall for your Ec2 instances. When you defi
 
 This is a security group issue. Any timeout (not just for SSH) is related to security groups or a firewall. Ensure your security group looks like this and is correctly assigned to your EC2 instance.
 
-![Compute%20and%20Networking%204689778871da4b9081450963809f1a28/Untitled%201png](file://C:\Users\ashehzad\Downloads\Export-6e54e554-61aa-40b5-a77f-e7326cc0d411\Compute%20and%20Networking%204689778871da4b9081450963809f1a28\Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/53600644/193905468-3f8d6aa6-2d6c-450d-9a55-b2480f27752c.png)
+
 
 ### NACL
 
@@ -123,7 +125,8 @@ DHCP provides a standard for passing configuration information to a host on a TC
 
 ### Shared Responsibility Model
 
-![Untitled](file://C:\Users\ashehzad\Downloads\Export-6e54e554-61aa-40b5-a77f-e7326cc0d411\Compute%20and%20Networking%204689778871da4b9081450963809f1a28\Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/53600644/193905488-822cc8ca-b480-47c9-9d07-ae7b5b37f206.png)
+
 
 ### Things you Should Know!
 
