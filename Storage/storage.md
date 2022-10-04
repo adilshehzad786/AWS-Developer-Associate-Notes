@@ -9,7 +9,8 @@
 - Throughput Optimized HDD(st1)
 - Cold HDD(sc1)
 
-![Untitled](file://C:\Users\ashehzad\Downloads\Export-a7e63886-1d87-415f-8af2-c1b3f94e5803\Storage%20f7b4b0af2082438fb7c5e00d31963324\Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/53600644/193906441-6bf60aaf-9479-4171-ab0c-b0eb7f7db2e8.png)
+
 
 ## S3
 
@@ -96,8 +97,8 @@ Even though each bucket is created in specific region, S3 names must be **unique
 ### **S3 Transfer Acceleration**
 
 Instead of uploading directly to S3 bucket, user can use a distinct URL to upload directly to an edge location which will then transfer that file to S3.
+![Untitled 1](https://user-images.githubusercontent.com/53600644/193906506-78a6406f-b8dd-4f80-98b8-b4fdab933bb5.png)
 
-![Storage%20f7b4b0af2082438fb7c5e00d31963324/Untitled%201png](file://C:\Users\ashehzad\Downloads\Export-a7e63886-1d87-415f-8af2-c1b3f94e5803\Storage%20f7b4b0af2082438fb7c5e00d31963324\Untitled%201.png)
 
 ### Access Point
 
@@ -118,7 +119,8 @@ Instead of uploading directly to S3 bucket, user can use a distinct URL to uploa
 - AES-256 encryption type
 - set header `"x-amz-server-side-encryption": "AES256"`
 
-![Storage%20f7b4b0af2082438fb7c5e00d31963324/Untitled%202png](file://C:\Users\ashehzad\Downloads\Export-a7e63886-1d87-415f-8af2-c1b3f94e5803\Storage%20f7b4b0af2082438fb7c5e00d31963324\Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/53600644/193906628-378bca22-f86f-48df-8567-4a31ba7b8a5f.png)
+
 
 ### SSE-KMS
 
@@ -126,8 +128,9 @@ Instead of uploading directly to S3 bucket, user can use a distinct URL to uploa
 - KMS Advantages: user control + audit trail
 - object is encrypted server side
 - set header `"x-amz-server-side-encryption": "aws:kms"`
+![Untitled 3](https://user-images.githubusercontent.com/53600644/193906690-2f4f0de6-d2d6-467e-8167-c79f2ac73686.png)
 
-![Storage%20f7b4b0af2082438fb7c5e00d31963324/Untitled%203png](file://C:\Users\ashehzad\Downloads\Export-a7e63886-1d87-415f-8af2-c1b3f94e5803\Storage%20f7b4b0af2082438fb7c5e00d31963324\Untitled%203.png)
+
 
 ### SSE-C
 
@@ -140,15 +143,17 @@ Instead of uploading directly to S3 bucket, user can use a distinct URL to uploa
   - `x-amz-server-side-encryption-customer-key`
   - `x-amz-server-side-encryption-customer-key-MD5`
 
-![Storage%20f7b4b0af2082438fb7c5e00d31963324/Untitled%204png](file://C:\Users\ashehzad\Downloads\Export-a7e63886-1d87-415f-8af2-c1b3f94e5803\Storage%20f7b4b0af2082438fb7c5e00d31963324\Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/53600644/193906725-805e0a64-da7c-40a6-aec0-96f64fd2e060.png)
+
 
 ### Client side encryption
 
 - client encrypt data before sending to S3
 - client decrypt data after retrieving from S3
 - client fully manages the keys and encryption cycle
+![Untitled 5](https://user-images.githubusercontent.com/53600644/193906741-4edc242e-fc4f-4566-a0e0-ec8caf577617.png)
 
-![Storage%20f7b4b0af2082438fb7c5e00d31963324/Untitled%205png](file://C:\Users\ashehzad\Downloads\Export-a7e63886-1d87-415f-8af2-c1b3f94e5803\Storage%20f7b4b0af2082438fb7c5e00d31963324\Untitled%205.png)
+
 
 ## Encryption in transit (in fly)
 
@@ -201,7 +206,8 @@ use SSL/TLS (https) to access to S3 endpoint
 - **Kinesis Analytics**: perform real-time analytics on streams using SQL
 - **Kinesis Firehose:** load streams into S3, Redshift, ElasticSearch
 
-![Storage%20f7b4b0af2082438fb7c5e00d31963324/Untitled%206png](file://C:\Users\ashehzad\Downloads\Export-a7e63886-1d87-415f-8af2-c1b3f94e5803\Storage%20f7b4b0af2082438fb7c5e00d31963324\Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/53600644/193906835-6bd4038b-9272-4bca-9d3a-8704b0e5712d.png)
+
 
 ## Kinesis Streams
 
@@ -214,7 +220,8 @@ use SSL/TLS (https) to access to S3 endpoint
 
 ### Shard
 
-![Storage%20f7b4b0af2082438fb7c5e00d31963324/Untitled%207png](file://C:\Users\ashehzad\Downloads\Export-a7e63886-1d87-415f-8af2-c1b3f94e5803\Storage%20f7b4b0af2082438fb7c5e00d31963324\Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/53600644/193906868-88e486f3-cddd-4770-9982-2263582e9b9b.png)
+
 
 - one stream is made of many different shards
 - 1MB/s or 1000 messages/s at write PER SHARD
@@ -250,7 +257,8 @@ use SSL/TLS (https) to access to S3 endpoint
     
   - progress is check pointed into DynamoDB (need IAM access)
     
-    ![Storage%20f7b4b0af2082438fb7c5e00d31963324/Untitled%208png](file://C:\Users\ashehzad\Downloads\Export-a7e63886-1d87-415f-8af2-c1b3f94e5803\Storage%20f7b4b0af2082438fb7c5e00d31963324\Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/53600644/193906878-712da3de-39c6-4de5-ae7c-a19ec5389b95.png)
+
 
 
 ### Exceptions
