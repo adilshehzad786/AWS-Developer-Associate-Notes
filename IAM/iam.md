@@ -30,7 +30,9 @@ Each AWS region is located in a separate geographic area and maintains its own, 
 - A user can represent a real person who requires access to operate and maintain your AWS Environment.
 - A user can be used by an application that requires permissions to access your AWS resources programmatically
 - Permissions can be assigned to the user or inherited from a group
- 
+
+ ![User_(1)](https://user-images.githubusercontent.com/53600644/193903172-f657b6db-eb8c-4b1a-a092-8eba574a137e.png)
+
 ## Groups
 
 - IAM Groups are objects like user objects
@@ -39,6 +41,9 @@ Each AWS region is located in a separate geographic area and maintains its own, 
 - IAM Group contains Users and has IAM Policies Associated.
 - AWS Has a default maximum limit of hundred groups
 - A user can only be associated with 10 groups
+
+![Untitled](https://user-images.githubusercontent.com/53600644/193903219-678f4cbc-28c4-4e24-b066-853a78c1766f.png)
+
 
 ## Roles
 
@@ -50,6 +55,9 @@ There are currently four different types of Roles
 2. AWS Service - Linked Role
 3. A Role for Cross Accounts Access
 4. A Role for Identity Provider Access
+
+![Untitled 1](https://user-images.githubusercontent.com/53600644/193903285-de101e3d-cec6-4d26-8eb9-155c443c24ed.png)
+
 
 ## Advanced IAM - Authorization Model
 
@@ -88,6 +96,8 @@ There are currently four different types of Roles
 *Condition* (Optional) — Grant conditions (like “aws: RequestedRegion”: “ap-south-1”)
 
 ## Permissions Evaluations Structure
+![Untitled 2](https://user-images.githubusercontent.com/53600644/193903420-341e8f9a-65bd-498f-843c-7bc68a8d184b.png)
+
 
 ### IAM Policies & S3 Bucket Policies
 
@@ -111,7 +121,9 @@ There are currently four different types of Roles
   - IAM Role attached to an EC2 instance, deny S3 bucket permission + S3 Bucket Policy attached, allow RW permission to the IAM Role
     
     ⇒ EC2 instance cannot read, write to "bucket"
-    
+
+![Untitled 3](https://user-images.githubusercontent.com/53600644/193903450-7a395f6c-19a1-4e5e-82f1-11ba5725346e.png)
+
 
 ### Dynamic Policies
 
@@ -140,6 +152,9 @@ There are currently four different types of Roles
   3. Cross account access
     - Lets users from one AWS account access resources in another
 
+![Untitled 4](https://user-images.githubusercontent.com/53600644/193903552-860c46c7-cfbf-471d-be9a-e83be93ebb21.png)
+
+
 ## Things to Know
 
 - IAM is global
@@ -162,9 +177,9 @@ There are currently four different types of Roles
 
 ### Resources
 
-AWS Whitepapers (Introduction to AWS):
+* AWS Whitepapers (Introduction to AWS):
 [https://aws.amazon.com/whitepapers/](https://aws.amazon.com/whitepapers/)
-AWS Training and Certification:
+* AWS Training and Certification:
 [https://aws.amazon.com/training](https://aws.amazon.com/training)
-AWS Events and Webinars:
+* AWS Events and Webinars:
 [https://aws.amazon.com/about-aws/events](https://aws.amazon.com/about-aws/events)
