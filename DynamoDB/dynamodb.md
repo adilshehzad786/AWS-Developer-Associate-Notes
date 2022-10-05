@@ -9,8 +9,9 @@
 - partition key must be "diverse" so that the data is distributed
   
 - Example: `user_id` for a users table
-  
-  ![DynamoDB%20982cdf0aa47e4fe2942dbc4309d1c2ca/Untitledpng](file://C:\Users\ashehzad\Downloads\Export-99ecb3b9-9887-490a-a5c0-849bf27d0719\DynamoDB%20982cdf0aa47e4fe2942dbc4309d1c2ca\Untitled.png)
+
+![Untitled](https://user-images.githubusercontent.com/53600644/194133833-0aff5798-f63a-483c-8cdf-6bf7a8b028dc.png)
+
   
 
 ### Option 2: Partition key + Sort Key
@@ -27,7 +28,8 @@
     
   - `game_id` for the sort key
     
-    ![DynamoDB%20982cdf0aa47e4fe2942dbc4309d1c2ca/Untitled%201png](file://C:\Users\ashehzad\Downloads\Export-99ecb3b9-9887-490a-a5c0-849bf27d0719\DynamoDB%20982cdf0aa47e4fe2942dbc4309d1c2ca\Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/53600644/194133866-9323a703-e8e1-40bf-84e1-9760f85113c7.png)
+
     
 
 ## Provisioned Throughput
@@ -167,11 +169,11 @@
 - 5 minutes TTL for cache by default
 - MultiAZ
 
-![DynamoDB%20982cdf0aa47e4fe2942dbc4309d1c2ca/Untitled%202png](file://C:\Users\ashehzad\Downloads\Export-99ecb3b9-9887-490a-a5c0-849bf27d0719\DynamoDB%20982cdf0aa47e4fe2942dbc4309d1c2ca\Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/53600644/194133900-c5632586-ba8d-42ad-8319-2e1705093aae.png)
+
 
 ## DynamoDB Streams
 
-![DynamoDB%20982cdf0aa47e4fe2942dbc4309d1c2ca/Untitled%203png](file://C:\Users\ashehzad\Downloads\Export-99ecb3b9-9887-490a-a5c0-849bf27d0719\DynamoDB%20982cdf0aa47e4fe2942dbc4309d1c2ca\Untitled%203.png)
 
 - change in DynamoDB (Create, Update, Delete) can end up in a DynamoDB Stream
 - This Stream can be read by AWS Lambda, and can:
@@ -180,6 +182,9 @@
   - Insert into ElasticSearch
 - can implement cross region replication using Stream
 - only 24 hours of data retention (≠ Kinesis 1 - 7 days)
+
+![Untitled 3](https://user-images.githubusercontent.com/53600644/194133949-59055a01-c813-4fb3-8b25-4316f4c11d1c.png)
+
 
 ## TTL (Time to Live)
 
