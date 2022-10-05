@@ -15,6 +15,7 @@ A change set is a description of the changes that will occur to a stack, should 
 AWS Cloudformation uses specific template syntax in JSON or YAML.
 
 ```json
+{
 "AWSTemplateFormatVersion": "2010-09-09",
  "Description": "String Description",
  "Metadata": { },
@@ -128,9 +129,10 @@ Outputs are values that can be made available to use outside a single stack.
 - Exported output names must be unique within region
   
 - `!GetAtt`
-  
-  ![Infrastructure%20As%20Code%20CloudFormation%2088f9cc10950047de841f5ecf9d79cb6c/Untitledpng](file://C:\Users\ashehzad\Downloads\Export-a8baa757-bb1a-478e-b6ec-f946b6176b1a\Infrastructure%20As%20Code%20(CloudFormation)%2088f9cc10950047de841f5ecf9d79cb6c\Untitled.png)
-  
+
+  ![Untitled](https://user-images.githubusercontent.com/53600644/194138304-0dc664e8-bcfc-456c-9722-7ffe3daaa740.png)
+
+ 
 - `!Join`
   
   - want to create "a:b:c" ⇒ `!Join [ ":", [a, b, c] ]`
