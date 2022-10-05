@@ -174,7 +174,7 @@ use SSL/TLS (https) to access to S3 endpoint
 
 - if you host a static website on S3, and you . request data from another S3 bucket, you need enable CORS
 - CORS allow you to limit the number of websites that can request your file in S3
-- read more: [CORS - Cross Same Origin Policy](https://www.notion.so/CORS-Cross-Same-Origin-Policy-98390b3dd7554abcbad0a53485ee75d9)
+
 
 ## S3 Performance
 
