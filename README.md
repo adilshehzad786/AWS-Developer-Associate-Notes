@@ -6,4 +6,5 @@
   - [Storage](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/Storage/storage.md)
   - [Databases](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/Databases/databases.md)
   - [DynamoDB](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/DynamoDB/dynamodb.md)
+  - [KMS](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/KMS/KMS.md)
   - []()
