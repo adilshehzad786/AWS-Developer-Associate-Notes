@@ -7,4 +7,5 @@
   - [Databases](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/Databases/databases.md)
   - [DynamoDB](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/DynamoDB/dynamodb.md)
   - [KMS](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/KMS/KMS.md)
-  - []()
+  - [Elastic BeanStalk](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/Elastic%20BeanStalk/elasticbeanstalk.md)
+  -[]()
