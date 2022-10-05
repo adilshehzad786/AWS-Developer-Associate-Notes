@@ -1,18 +1,19 @@
 # SQS
 
-![SQS%20df1fe8d25db9488985806af5c547307b/E3A330F49B42409B8248839DC5113426jpeg](file://C:\Users\ashehzad\Downloads\Export-530445e9-18cc-4959-b60a-18ba8a69f851\SQS%20df1fe8d25db9488985806af5c547307b\E3A330F4-9B42-409B-8248-839DC5113426.jpeg)
+![E3A330F4-9B42-409B-8248-839DC5113426](https://user-images.githubusercontent.com/53600644/194141048-7a374665-13aa-4455-a2a8-2b09cd833c9e.jpeg)
+
 
 ## Application communication
 
 - synchronous communications
-  
-  ![SQS%20df1fe8d25db9488985806af5c547307b/0B8C1B7A0867446EA46E8489681F86CEjpeg](file://C:\Users\ashehzad\Downloads\Export-530445e9-18cc-4959-b60a-18ba8a69f851\SQS%20df1fe8d25db9488985806af5c547307b\0B8C1B7A-0867-446E-A46E-8489681F86CE.jpeg)
-  
+  ![0B8C1B7A-0867-446E-A46E-8489681F86CE](https://user-images.githubusercontent.com/53600644/194141101-81dfeb5b-4f42-491b-a80c-dbb15dfdeb0a.jpeg)
+
+
   ⇒ can be problematic if there are sudden spikes of traffic
   
 - asynchronous / event based
-  
-  ![SQS%20df1fe8d25db9488985806af5c547307b/9E25FC2991BC49D09746B534E73F0BFFjpeg](file://C:\Users\ashehzad\Downloads\Export-530445e9-18cc-4959-b60a-18ba8a69f851\SQS%20df1fe8d25db9488985806af5c547307b\9E25FC29-91BC-49D0-9746-B534E73F0BFF.jpeg)
+  ![9E25FC29-91BC-49D0-9746-B534E73F0BFF](https://user-images.githubusercontent.com/53600644/194141142-43b3b6f3-0636-4a0c-bd85-6b8dfa32f405.jpeg)
+
   
   ⇒ scalable
   
@@ -25,8 +26,8 @@
 - get back
   - message identifier
   - MD5 hash of body
+![C4AE4E3D-C9CE-4CBB-A7E8-29D591156D7B](https://user-images.githubusercontent.com/53600644/194141497-f8611f0e-3812-4269-a20a-f6518ec63ad8.png)
 
-![SQS%20df1fe8d25db9488985806af5c547307b/C4AE4E3DC9CE4CBBA7E829D591156D7Bpng](file://C:\Users\ashehzad\Downloads\Export-530445e9-18cc-4959-b60a-18ba8a69f851\SQS%20df1fe8d25db9488985806af5c547307b\C4AE4E3D-C9CE-4CBB-A7E8-29D591156D7B.png)
 
 ## Consuming messages
 
@@ -34,7 +35,8 @@
 - process the message within the visibility timeout
 - delete the message using message ID & receipt handle
 
-![SQS%20df1fe8d25db9488985806af5c547307b/3B962D1172104CD89C6076DF91E522F8jpeg](file://C:\Users\ashehzad\Downloads\Export-530445e9-18cc-4959-b60a-18ba8a69f851\SQS%20df1fe8d25db9488985806af5c547307b\3B962D11-7210-4CD8-9C60-76DF91E522F8.jpeg)
+![3B962D11-7210-4CD8-9C60-76DF91E522F8](https://user-images.githubusercontent.com/53600644/194141174-5369f4cf-e2af-4b0e-962b-3663347d4db6.jpeg)
+
 
 ### visibility timeout
 
@@ -59,16 +61,19 @@
   
 - Short polling
   
+![38EDDEFD-FFC3-4DA5-96DA-11134B733336](https://user-images.githubusercontent.com/53600644/194141198-1ebf1019-1af2-4fe4-8e45-88b7ef71b43e.jpeg)
 
-![SQS%20df1fe8d25db9488985806af5c547307b/38EDDEFDFFC34DA596DA11134B733336jpeg](file://C:\Users\ashehzad\Downloads\Export-530445e9-18cc-4959-b60a-18ba8a69f851\SQS%20df1fe8d25db9488985806af5c547307b\38EDDEFD-FFC3-4DA5-96DA-11134B733336.jpeg)
+
 
 - long polling
 
-![SQS%20df1fe8d25db9488985806af5c547307b/B46EC6B8E5194F05BC0A55B9BF4C8245png](file://C:\Users\ashehzad\Downloads\Export-530445e9-18cc-4959-b60a-18ba8a69f851\SQS%20df1fe8d25db9488985806af5c547307b\B46EC6B8-E519-4F05-BC0A-55B9BF4C8245.png)
+![B46EC6B8-E519-4F05-BC0A-55B9BF4C8245](https://user-images.githubusercontent.com/53600644/194141224-39dc48f0-1bf4-421e-b70a-a8a39987923e.png)
+
 
 ## Standard Queue
 
-![SQS%20df1fe8d25db9488985806af5c547307b/E6E72E5AC02B45F483EDE60EE47F331Ejpeg](file://C:\Users\ashehzad\Downloads\Export-530445e9-18cc-4959-b60a-18ba8a69f851\SQS%20df1fe8d25db9488985806af5c547307b\E6E72E5A-C02B-45F4-83ED-E60EE47F331E.jpeg)
+![E6E72E5A-C02B-45F4-83ED-E60EE47F331E](https://user-images.githubusercontent.com/53600644/194141264-726d9981-5703-4685-abc8-b342881379f0.jpeg)
+
 
 - **unlimited** throughput
 - retention 4 days by default, maximum 14 days
@@ -92,11 +97,13 @@
 - by default DLQ is not enable, messages don't go back the the queue
 - after the threshold is exceeded, the message goes into a DLQ
 
-![SQS%20df1fe8d25db9488985806af5c547307b/E6485E57AEE1487CBE0D89F1AAC5B0D1jpeg](file://C:\Users\ashehzad\Downloads\Export-530445e9-18cc-4959-b60a-18ba8a69f851\SQS%20df1fe8d25db9488985806af5c547307b\E6485E57-AEE1-487C-BE0D-89F1AAC5B0D1.jpeg)
+![E6485E57-AEE1-487C-BE0D-89F1AAC5B0D1](https://user-images.githubusercontent.com/53600644/194141283-afff32e9-9932-40a8-95d5-85ca3ac6c648.jpeg)
+
 
 ## FIFO Queue
 
-![SQS%20df1fe8d25db9488985806af5c547307b/7BF7D8EB09A64418806DF66A303C57BFjpeg](file://C:\Users\ashehzad\Downloads\Export-530445e9-18cc-4959-b60a-18ba8a69f851\SQS%20df1fe8d25db9488985806af5c547307b\7BF7D8EB-09A6-4418-806D-F66A303C57BF.jpeg)
+![7BF7D8EB-09A6-4418-806D-F66A303C57BF](https://user-images.githubusercontent.com/53600644/194141313-c197f1b7-d24f-41cf-90fe-6d718dcbf512.jpeg)
+
 
 - high throughput (300/s without batching, 3000/s with batching)
 - process messages **in order** by the consumer (**sequencing**)
@@ -113,7 +120,8 @@
 
 - to send messages larger than 256KB ⇒ use the SQS Extended Client
 
-![SQS%20df1fe8d25db9488985806af5c547307b/D6A6F41DFD624F1EB74996519C6AB669jpeg](file://C:\Users\ashehzad\Downloads\Export-530445e9-18cc-4959-b60a-18ba8a69f851\SQS%20df1fe8d25db9488985806af5c547307b\D6A6F41D-FD62-4F1E-B749-96519C6AB669.jpeg)
+![D6A6F41D-FD62-4F1E-B749-96519C6AB669](https://user-images.githubusercontent.com/53600644/194141368-6f9783a4-1ce2-4949-8060-2870c2dae261.jpeg)
+
 
 ## Security
 
