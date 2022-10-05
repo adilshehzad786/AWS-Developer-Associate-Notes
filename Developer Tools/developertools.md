@@ -4,7 +4,8 @@
 
 The AWS Code service lay the foundation to deploy different parts of an enterprise starting from a source repository. You can start with AWS Codepipeline to create a continuous integration/continuous deployment pipeline (CI/CD) that integerates various sources , tests, deployments or other components. AWS Code pipeline implements AWS CodeCommit as a source in that it acts as the intilization point of your deployment process. AWS CodeBuild allow you to pull code and packages from various sources to create publishable build artifacts. AWS code Deploy allow you to deploy compiled artifacts to infrastructure in your enviornment. AWS Code pipeline is not limited to deploying application , it can be use for provision , configure and manage infrastructure.
 
-![Untitled](file://C:\Users\ashehzad\Downloads\Export-2486ab57-c791-455b-98fb-70fe1938108b\Developer%20Tools%209316c3d9da4b4ffbb613501c2e8260e2\Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/53600644/194136869-9abcb463-959f-4831-8089-d465f76c22c1.png)
+
 
 ## Overview
 
@@ -13,7 +14,8 @@ The AWS Code service lay the foundation to deploy different parts of an enterpri
 - codedeploy: CD
 - codepipeline: combines source control, build, and deployment
 
-![Developer%20Tools%209316c3d9da4b4ffbb613501c2e8260e2/Untitled%201png](file://C:\Users\ashehzad\Downloads\Export-2486ab57-c791-455b-98fb-70fe1938108b\Developer%20Tools%209316c3d9da4b4ffbb613501c2e8260e2\Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/53600644/194136915-c793f79c-5292-46f7-aedc-1e55282f1ac7.png)
+
 
 ## CodeCommit
 
@@ -77,7 +79,8 @@ The AWS Code service lay the foundation to deploy different parts of an enterpri
   - artifacts: what to upload to S3 (encrypted with KMS)
   - cache: Files to cache (eg: dependencies) to S3 for future build speedup
 
-![Developer%20Tools%209316c3d9da4b4ffbb613501c2e8260e2/Untitled%202png](file://C:\Users\ashehzad\Downloads\Export-2486ab57-c791-455b-98fb-70fe1938108b\Developer%20Tools%209316c3d9da4b4ffbb613501c2e8260e2\Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/53600644/194136943-bec694e4-7cb2-437e-818c-ee87bcd5adfc.png)
+
 
 ## CodeDeploy
 
@@ -89,7 +92,8 @@ The AWS Code service lay the foundation to deploy different parts of an enterpri
 - EC2 will run the deployment instructions
 - CodeDeploy Agent will report of success/failure of deployment on the instance
 
-![Developer%20Tools%209316c3d9da4b4ffbb613501c2e8260e2/Untitled%203png](file://C:\Users\ashehzad\Downloads\Export-2486ab57-c791-455b-98fb-70fe1938108b\Developer%20Tools%209316c3d9da4b4ffbb613501c2e8260e2\Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/53600644/194136963-7c67f2c6-9663-4ca4-a32e-7fb65155ab90.png)
+
 
 - EC2 will be grouped by deployment group (dev/test/prod)
 - Blue / Green only works with EC2 instances (not on premise)
@@ -128,8 +132,7 @@ The AWS Code service lay the foundation to deploy different parts of an enterpri
 - each stage can create artifacts
   
   - artifacts are passed and stored in Amazon S3 and passed on to the next stage
-    
-    ![Developer%20Tools%209316c3d9da4b4ffbb613501c2e8260e2/Untitled%204png](file://C:\Users\ashehzad\Downloads\Export-2486ab57-c791-455b-98fb-70fe1938108b\Developer%20Tools%209316c3d9da4b4ffbb613501c2e8260e2\Untitled%204.png)
+
     
 - each stage can have multiple action group
   
@@ -142,6 +145,8 @@ The AWS Code service lay the foundation to deploy different parts of an enterpri
   - ...
 - if codepipeline can't perform an action, make sure its' IAM Role have enough permissions
   
+![Untitled 4](https://user-images.githubusercontent.com/53600644/194137003-054d483f-4b51-46a5-871c-a891b764aed5.png)
+
 
 ## CodeStar
 
