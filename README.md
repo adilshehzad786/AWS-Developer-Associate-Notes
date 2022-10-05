@@ -12,3 +12,26 @@
   - [Cloudformation](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/Cloudformation/cloudformation.md)
   - [Cognito](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/Cognito/cognito.md)
   - [SQS](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/SQS/sqs.md)
+
+
+
+# Recommended Courses 
+
+- [AWS Developer Associate by Stephane Maarek](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/)
+- [AWS Certified Developer - Associate by Faye](https://acloudguru.com/course/aws-certified-developer-associate)
+
+# Recommended E-Book/Book
+
+- [AWS Certified Developer Official Study Guide](https://www.amazon.com/Certified-Developer-Official-Study-Guide/dp/1119508193)
+
+# Recommended Practice Exam
+- [AWS CERTIFIED DEVELOPER ASSOCIATE PRACTICE EXAMS](https://tutorialsdojo.com/courses/aws-certified-developer-associate-practice-exams/)
+
+
+# Tips
+
+* Makes Notes, and clear your cloud concepts
+* Practice Daily on AWS Free Tier Account 
+* Do Hands-on Labs for better Understanding 
+* Don't Use Dumps! 
+* Try to invest in courses, which can help you to build more robust concepts. 
