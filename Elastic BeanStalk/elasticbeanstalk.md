@@ -63,7 +63,8 @@ Load balancing is a integral part to directing and managing traffic among your i
 - great for quick iterations in development environment
 - no additional cost
 
-![Beanstalk%203389a18929644abdb4f346d28b15f822/0905BCEB5ADF41CD95F6F58C36C53549jpeg](file://C:\Users\ashehzad\Downloads\Export-49fbde92-d202-4ec8-b3c7-748c93849fe5\Beanstalk%203389a18929644abdb4f346d28b15f822\0905BCEB-5ADF-41CD-95F6-F58C36C53549.jpeg)
+![0905BCEB-5ADF-41CD-95F6-F58C36C53549](https://user-images.githubusercontent.com/53600644/194135776-7becdd8b-d1a6-4565-9f0d-6544161dd6d7.jpeg)
+
 
 ### Rolling
 
@@ -72,8 +73,9 @@ Load balancing is a integral part to directing and managing traffic among your i
 - application is running both versions simultaneously
 - no additional cost
 - long deployment
+![C33A92C5-DFFF-441B-B15C-6F69FA061ABC](https://user-images.githubusercontent.com/53600644/194135836-c670a67e-3758-42eb-bb2a-b8693acad46c.jpeg)
 
-![Beanstalk%203389a18929644abdb4f346d28b15f822/C33A92C5DFFF441BB15C6F69FA061ABCjpeg](file://C:\Users\ashehzad\Downloads\Export-49fbde92-d202-4ec8-b3c7-748c93849fe5\Beanstalk%203389a18929644abdb4f346d28b15f822\C33A92C5-DFFF-441B-B15C-6F69FA061ABC.jpeg)
+
 
 ### Rolling with additional batches
 
@@ -85,7 +87,8 @@ Load balancing is a integral part to directing and managing traffic among your i
 - longer deployment
 - good for prod
 
-![Beanstalk%203389a18929644abdb4f346d28b15f822/EB49BCFD162949EBBA0EB127A2A4A817jpeg](file://C:\Users\ashehzad\Downloads\Export-49fbde92-d202-4ec8-b3c7-748c93849fe5\Beanstalk%203389a18929644abdb4f346d28b15f822\EB49BCFD-1629-49EB-BA0E-B127A2A4A817.jpeg)
+![EB49BCFD-1629-49EB-BA0E-B127A2A4A817](https://user-images.githubusercontent.com/53600644/194135861-b40674bb-da8b-46da-aff9-d5940edd8f60.jpeg)
+
 
 ### Immutable
 
@@ -96,7 +99,8 @@ Load balancing is a integral part to directing and managing traffic among your i
 - quick rollback in case of failures (just terminate new ASG)
 - great for prod
 
-![Beanstalk%203389a18929644abdb4f346d28b15f822/3D42B2F631E04F2DA39A9E0C86F201FFjpeg](file://C:\Users\ashehzad\Downloads\Export-49fbde92-d202-4ec8-b3c7-748c93849fe5\Beanstalk%203389a18929644abdb4f346d28b15f822\3D42B2F6-31E0-4F2D-A39A-9E0C86F201FF.jpeg)
+![3D42B2F6-31E0-4F2D-A39A-9E0C86F201FF](https://user-images.githubusercontent.com/53600644/194135884-cf1d27ec-f40f-4072-9f40-672d0448a732.jpeg)
+
 
 ### Blue / Green
 
@@ -107,11 +111,18 @@ Load balancing is a integral part to directing and managing traffic among your i
 - Route53 can be setup using weighted policies to redirect a little bit of traffic to the stage environment
 - Using Beanstalk, "swap URLs" when done with the environment test
 
-![Beanstalk%203389a18929644abdb4f346d28b15f822/13EA311FFF99429F9C57903ED3723699jpeg](file://C:\Users\ashehzad\Downloads\Export-49fbde92-d202-4ec8-b3c7-748c93849fe5\Beanstalk%203389a18929644abdb4f346d28b15f822\13EA311F-FF99-429F-9C57-903ED3723699.jpeg)
+![13EA311F-FF99-429F-9C57-903ED3723699](https://user-images.githubusercontent.com/53600644/194135918-9347f106-c0ef-4053-96a5-263e263be5ef.jpeg)
 
-[Deployment Methods Compare](Beanstalk%203389a18929644abdb4f346d28b15f822/Deployment%20Methods%20Compare%200dd4eb996da746e7b60a1c6c0f071a26.csv)
+### Comparison Table 
 
-☨ Varies depending on batch size.
+|Method                       |Impact of failed deployment                                                                       |Deploy time|Zero downtime|No DNS change|Rollback process       |Code deployed to                   |
+|-----------------------------|--------------------------------------------------------------------------------------------------|-----------|-------------|-------------|-----------------------|-----------------------------------|
+|All at once                  |Downtime                                                                                          |🕒         |☓            |✓            |Manual Redeploy        |Existing instances                 |
+|Rolling                      |Single batch out of service; any successful batches before failure running new application version|🕒🕒☨      |✓            |✓            |Manual Redeploy        |Existing instances                 |
+|Rolling with additional batch|Minimal if first batch fails; otherwise, similar to Rolling                                       |🕒🕒🕒☨    |✓            |✓            |Manual Redeploy        |Redeploy	New and existing instances|
+|Immutable                    |Minimal                                                                                           |🕒🕒🕒🕒   |✓            |✓            |Terminate New Instances|New instances                      |
+|Blue/green                   |Minimal                                                                                           |🕒🕒🕒🕒   |✓            |☓            |Swap URL               |New instances                      |
+
 
 ## Elastic Beanstalk Extensions
 
@@ -141,7 +152,8 @@ Load balancing is a integral part to directing and managing traffic among your i
 - Eg: processing a video, generating a zip file...
 - can define periodic tasks in a file cron.yaml
 
-![Beanstalk%203389a18929644abdb4f346d28b15f822/Untitledpng](file://C:\Users\ashehzad\Downloads\Export-49fbde92-d202-4ec8-b3c7-748c93849fe5\Beanstalk%203389a18929644abdb4f346d28b15f822\Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/53600644/194136196-d9a8d4fc-519e-48a8-859e-311f9f3c9872.png)
+
 
 ## RDS with Elastic Beanstalk
 
