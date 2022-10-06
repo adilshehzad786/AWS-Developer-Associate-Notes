@@ -12,12 +12,15 @@
   - [Cloudformation](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/Cloudformation/cloudformation.md)
   - [Cognito](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/Cognito/cognito.md)
   - [SQS](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/SQS/sqs.md)
-  - [SNS]()
+  - [SNS](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/SNS/sns.md)
+  - [Lambda](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/Lambda/Lambda.md)
+  - [API Gateway]()
 
 # Other Notes 
 
 - [AWS Developer Notes 1](https://github.com/mransbro/aws-developer-notes)
 - [AWS Developer Notes 2](http://clusterfrak.com/notes/certs/aws_deva_notes/)
+- [AWS Developer Notes 3](https://www.notion.so/AWS-Certified-Developer-Associate-Notes-fd46d61073764ab8b48eb4a6b0f597df)
 
 
 # Recommended Courses 
