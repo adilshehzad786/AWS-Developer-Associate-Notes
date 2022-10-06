@@ -1,13 +1,13 @@
 # SNS
 
 - direct integration
-  
-  ![SNS%20435397cf159c489bbdc40ac6787afa3c/3136F4BCC5AD4832B81C4121EC29717Cjpeg](file://C:\Users\ashehzad\Downloads\Export-0bf2bfe3-b5ff-4f2a-be83-3cec6289fe97\SNS%20435397cf159c489bbdc40ac6787afa3c\3136F4BC-C5AD-4832-B81C-4121EC29717C.jpeg)
+![3136F4BC-C5AD-4832-B81C-4121EC29717C](https://user-images.githubusercontent.com/53600644/194388828-7d97ff2b-7c4c-473f-984f-93349087571a.jpeg)
+
   
 - Pub / Sub
-  
-  ![SNS%20435397cf159c489bbdc40ac6787afa3c/984354AD2A534CA8AB454758A02A8640jpeg](file://C:\Users\ashehzad\Downloads\Export-0bf2bfe3-b5ff-4f2a-be83-3cec6289fe97\SNS%20435397cf159c489bbdc40ac6787afa3c\984354AD-2A53-4CA8-AB45-4758A02A8640.jpeg)
-  
+  ![984354AD-2A53-4CA8-AB45-4758A02A8640](https://user-images.githubusercontent.com/53600644/194388862-7546a47a-9aa1-4642-bb94-e98c23eac7f1.jpeg)
+
+
 - "event producer" only sends message to one SNS topic
   
 - each subscriber to the topic will get all the messages (new feature to filter messages)
