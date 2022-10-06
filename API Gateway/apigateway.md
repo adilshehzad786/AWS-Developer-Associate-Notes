@@ -1,6 +1,7 @@
 # API Gateway (1)
+![Untitled](https://user-images.githubusercontent.com/53600644/194395907-22070317-cc87-415c-8435-90147b5b4e4e.png)
 
-![API%20Gateway%201%20c60445ae041345949b3bb58b1aa6d653/Untitledpng](file://C:\Users\ashehzad\Downloads\Export-bcfb8d3b-da75-46ad-a7ff-d0e06d8d68c7\API%20Gateway%20(1)%20c60445ae041345949b3bb58b1aa6d653\Untitled.png)
+
 
 ## Features
 
@@ -34,7 +35,6 @@
 
 ### Canary Deployment
 
-![API%20Gateway%201%20c60445ae041345949b3bb58b1aa6d653/Untitled%201png](file://C:\Users\ashehzad\Downloads\Export-bcfb8d3b-da75-46ad-a7ff-d0e06d8d68c7\API%20Gateway%20(1)%20c60445ae041345949b3bb58b1aa6d653\Untitled%201.png)
 
 - can enable deployments for any stage
   
@@ -46,6 +46,7 @@
   
 - can override stage variables for canary
   
+
 
 ## Mapping Templates
 
@@ -106,7 +107,7 @@
 - handle authentication + authorization
 - leverages Sig v4
 
-![API%20Gateway%201%20c60445ae041345949b3bb58b1aa6d653/Untitled%202png](file://C:\Users\ashehzad\Downloads\Export-bcfb8d3b-da75-46ad-a7ff-d0e06d8d68c7\API%20Gateway%20(1)%20c60445ae041345949b3bb58b1aa6d653\Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/53600644/194395957-dbcbae47-0fed-44a4-9c50-069afa325a61.png)
 
 ### Lambda Authorizer (Custom Authorizer)
 
@@ -114,8 +115,8 @@
 - flexible in terms of what IAM policy is returned
 - handle authentication + authorization
 - pay per lambda invocation
+![Untitled 3](https://user-images.githubusercontent.com/53600644/194396085-323402e5-6023-4685-8f43-5f86465f1f59.png)
 
-![API%20Gateway%201%20c60445ae041345949b3bb58b1aa6d653/Untitled%203png](file://C:\Users\ashehzad\Downloads\Export-bcfb8d3b-da75-46ad-a7ff-d0e06d8d68c7\API%20Gateway%20(1)%20c60445ae041345949b3bb58b1aa6d653\Untitled%203.png)
 
 ### Cognito User Pool
 
