@@ -1,8 +1,9 @@
 # ECS & ECR & Fargate
 
 ## ECS
+![D499EA64-19DD-482A-8E85-DA811D4A39D8](https://user-images.githubusercontent.com/53600644/194398458-983c8f9b-a289-4f26-a1cd-fd2dcc20b0ee.jpeg)
 
-![ECS%20&%20ECR%20&%20Fargate%201%207f87243a6e7347f3bbaf7a50fb0a7f0e/D499EA6419DD482A8E85DA811D4A39D8jpeg](file://C:\Users\ashehzad\Downloads\Export-c4b37bc9-4d6a-45fb-873d-9a550cef3d1d\ECS%20&%20ECR%20&%20Fargate%20(1)%207f87243a6e7347f3bbaf7a50fb0a7f0e\D499EA64-19DD-482A-8E85-DA811D4A39D8.jpeg)
+
 
 - used to run Docker containers and has 3 flavors:
   - ECS "Classic": provision EC2 instances to run containers
@@ -62,15 +63,17 @@
 
 ### ECS Cluster: X-Ray Container as a Daemon
 
-![ECS%20&%20ECR%20&%20Fargate%201%207f87243a6e7347f3bbaf7a50fb0a7f0e/Untitledpng](file://C:\Users\ashehzad\Downloads\Export-c4b37bc9-4d6a-45fb-873d-9a550cef3d1d\ECS%20&%20ECR%20&%20Fargate%20(1)%207f87243a6e7347f3bbaf7a50fb0a7f0e\Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/53600644/194398484-6d34a3e7-6a5d-48d6-a360-0ed14e292ee3.png)
+
 
 ### ECS Cluster: X-Ray Container as a "Side Car"
 
-![ECS%20&%20ECR%20&%20Fargate%201%207f87243a6e7347f3bbaf7a50fb0a7f0e/Untitled%201png](file://C:\Users\ashehzad\Downloads\Export-c4b37bc9-4d6a-45fb-873d-9a550cef3d1d\ECS%20&%20ECR%20&%20Fargate%20(1)%207f87243a6e7347f3bbaf7a50fb0a7f0e\Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/53600644/194398602-48fa1adf-0ec5-4fcc-96a6-4168eab14e0d.png)
+
 
 ### Fargate Cluster: X-Ray Container as a "Side Car"
 
-![ECS%20&%20ECR%20&%20Fargate%201%207f87243a6e7347f3bbaf7a50fb0a7f0e/Untitled%202png](file://C:\Users\ashehzad\Downloads\Export-c4b37bc9-4d6a-45fb-873d-9a550cef3d1d\ECS%20&%20ECR%20&%20Fargate%20(1)%207f87243a6e7347f3bbaf7a50fb0a7f0e\Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/53600644/194398627-e008a0d9-5185-4189-8599-f61c64d14032.png)
 
 ## Elastic Beanstalk + ECS
 
