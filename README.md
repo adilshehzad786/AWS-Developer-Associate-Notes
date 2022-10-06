@@ -12,6 +12,7 @@
   - [Cloudformation](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/Cloudformation/cloudformation.md)
   - [Cognito](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/Cognito/cognito.md)
   - [SQS](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/SQS/sqs.md)
+  - [SNS]()
 
 
 
