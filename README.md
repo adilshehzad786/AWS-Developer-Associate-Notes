@@ -43,3 +43,5 @@
 * Do Hands-on Labs for better Understanding 
 * Don't Use Dumps! 
 * Try to invest in courses, which can help you to build more robust concepts. 
+
+_Feel Free to Open a pull request for contributions :)_
