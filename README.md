@@ -14,7 +14,8 @@
   - [SQS](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/SQS/sqs.md)
   - [SNS](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/SNS/sns.md)
   - [Lambda](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/Lambda/Lambda.md)
-  - [API Gateway]()
+  - [API Gateway](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/tree/main/API%20Gateway)
+  - [Containers & ECR](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/tree/main/ECS-Fargate-ECR)
 
 # Other Notes 
 
