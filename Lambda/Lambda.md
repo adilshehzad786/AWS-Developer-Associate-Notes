@@ -114,13 +114,15 @@ Read more: [AWS Serverless Lambda functions best practice](https://www.notion.so
     
   - before CloudFront forwards the response the the viewer (viewer response
     
-    ![Lambda%20bf720e3c4a9b493c8c739c8c1b5c17c8/Untitledpng](file://C:\Users\ashehzad\Downloads\Export-63a66a26-0b37-40af-ae4e-63cc4584f2f5\Lambda%20bf720e3c4a9b493c8c739c8c1b5c17c8\Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/53600644/194392446-6b80a72a-f156-4ad6-a2a5-bb56b6d3b131.png)
+
     
   - can generate responses to viewers without ever sending the request to the origin
     
 - global application
   
-  ![Lambda%20bf720e3c4a9b493c8c739c8c1b5c17c8/Untitled%201png](file://C:\Users\ashehzad\Downloads\Export-63a66a26-0b37-40af-ae4e-63cc4584f2f5\Lambda%20bf720e3c4a9b493c8c739c8c1b5c17c8\Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/53600644/194392518-4fcf8ff6-88ed-4e0a-b7d8-2cf4882ead15.png)
+
   
 - Use cases:
   
