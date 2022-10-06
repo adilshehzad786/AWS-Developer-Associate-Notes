@@ -14,6 +14,10 @@
   - [SQS](https://github.com/adilshehzad786/AWS-Developer-Associate-Notes/blob/main/SQS/sqs.md)
   - [SNS]()
 
+# Other Notes 
+
+- [AWS Developer Notes 1](https://github.com/mransbro/aws-developer-notes)
+- [AWS Developer Notes 2](http://clusterfrak.com/notes/certs/aws_deva_notes/)
 
 
 # Recommended Courses 
