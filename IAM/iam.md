@@ -84,7 +84,7 @@ There are currently four different types of Roles
  "Resource": "arn:aws:polly:us-west-2:123456789012:lexicon/awsLexicon"
  }
  ]
-}
+
 ```
 
 *Effect* –Allow or Deny access to the resource is decided by Effect (Allow/Deny)
