@@ -135,9 +135,9 @@ DHCP provides a standard for passing configuration information to a host on a TC
 - When you create an AMI, it’s marked private
 - stateful meaning that any request allowed in is automatically allowed out.
 - Allowed up to 5 VPC per region
-- All subnets in default VPChase an internet gateway attached.
-- SA subnetcannot mapped to multiple AZ
-- You can have 1 IG per VPC
+- All subnets in default VPC has an internet gateway attached.
+- SA subnet cannot mapped to multiple AZ
+- You can have 1 IGW per VPC
 - NAT Gateway scale up to 10GBPS
 - NAT Gateway automatically assigned to public IP
 - Highes rule number in NACL is 32766
